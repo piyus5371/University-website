@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c770909ee7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="image/logo.png" alt="website logo"
+        /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fas fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!-- ------course----- -->
+
+   <section class="course">
+      <h1>Courses we offer</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo
+            incidunt consectetur laborum tempora, ex aut distinctio ab quae
+            ipsam nam alias. Itaque vero explicabo unde beatae sapiente quae
+            qui.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo
+            consequatur blanditiis, repudiandae nemo eligendi corporis voluptate
+            porro repellat rerum, ex eveniet totam pariatur deleniti error modi
+            ea architecto! Quidem!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post graduate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            repellat deleniti, delectus earum porro, minima obcaecati autem
+            dignissimos suscipit sit sapiente provident facilis quasi nulla
+            facere ad dolores ipsam deserunt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----Facilities------ -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="image/library.png" />
+          <h3>World class library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            amet sit blanditiis, nesciunt ipsa consequatur?
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="image/basketball.png" />
+          <h3>largest play ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            amet sit blanditiis, nesciunt ipsa consequatur?
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="image/cafeteria.png" />
+          <h3>Tasty and healthy food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            amet sit blanditiis, nesciunt ipsa consequatur?
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- -----footer------ -->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum alias
+        excepturi temporibus eveniet nesciunt <br />
+        necessitatibus repudiandae cum minus dolorem qui ratione harum neque
+        iste consequatur est ad asperiores, iure dolores.
+      </p>
+      <div class="icons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>Made with <i class="far fa-heart"></i>by easy tutorials</p>
+    </section>
+
+    <!-- ------JavaScript for toggle menu------ -->
+    <script>
+      let navLinks = document.getElementById("nav-links");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
